@@ -7,7 +7,7 @@ export default function App() {
   function handleChange(e) {
     const dates = e.target.value;
     const value = dates.split("-");
-    const date = new Date();
+    console.log*value
     const FinaleDate = date.getFullYear() - (+value[0]) - 1;
     const FinalMonth = 12 - (+value[1]) + 1;
     setAge({ FinaleDate, FinalMonth });
